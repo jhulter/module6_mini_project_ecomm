@@ -1,1 +1,5 @@
 # module6_mini_project_ecomm
+
+In order to run this you'll have to also create a password that permits access to the created database. You'll also have to install all the required packages that are imported and used. 
+
+To create this project I created my virtual environment, wrote the code that created all the tables and schemas and then moved on to create all the routes. This flask application is pretty self explanitory if you know what your looking at. In order to run it yourself though you'll have to create your virtual environment in the directory in which you are building your app.py. Then it's a matter of creating your password file with your "my_password" variable and the proper database name plugged into the app.config path on line 9 of the code. Make sure you have created a database there. In the correct folder do "flask run" in the terminal and then you can open up postman. You can look over the code and determine the proper folder names and then do whatever you want to the API
